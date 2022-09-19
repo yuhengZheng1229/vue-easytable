@@ -356,7 +356,7 @@ export default {
                 sortResult = sortBy === "asc" ? "desc" : "asc";
             } else {
                 sortResult =
-                    sortBy === "asc" ? "desc" : sortBy === "desc" ? "" : "asc";
+                    sortBy
             }
 
             this.dispatch(COMPS_NAME.VE_TABLE_THADER, EMIT_EVENTS.SORT_CHANGE, {
